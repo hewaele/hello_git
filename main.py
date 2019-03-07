@@ -21,6 +21,10 @@ def user2():
 def pust_test():
     print("上传到github成功")
 
+#上传分支测试
+def pust_branch():
+    print("上传分支与master合并成功")
+
 if __name__ == "__main__":
 
     #增加手动输入数字
@@ -34,4 +38,5 @@ if __name__ == "__main__":
 
     user2()
     push_test()
+    pust_branch()
 
