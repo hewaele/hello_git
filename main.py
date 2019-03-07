@@ -17,12 +17,15 @@ def user1():
 def user2():
     print("用户2添加的功能")
 
+#添加一个功能测试上传到github
+def pust_test():
+    print("上传到github成功")
 
 if __name__ == "__main__":
 
     #增加手动输入数字
-    a = input("请输入a：")
-    b = input("请输入b:")
+    a = int(input("请输入a："))
+    b = int(input("请输入b:"))
     c = quotient(a, b)
     print(c)
 
@@ -30,5 +33,5 @@ if __name__ == "__main__":
     user1()
 
     user2()
-
+    push_test()
 
