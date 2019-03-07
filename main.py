@@ -7,5 +7,8 @@ def quotient(a, b):
     return result
 
 if __name__ == "__main__":
-    a = quotient(2, 3)
-    print(a)
+    #增加手动输入数字
+    a = input("请输入a：")
+    b = input("请输入b:")
+    c = quotient(a, b)
+    print(c)
