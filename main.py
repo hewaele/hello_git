@@ -9,6 +9,10 @@ def quotient(a, b):
 def branch_test():
     print('branch test success')
 
+#用户1添加了一个新的功能
+def user1():
+    print("用户1添加了一个新的功能")
+
 if __name__ == "__main__":
 
     #增加手动输入数字
@@ -16,4 +20,6 @@ if __name__ == "__main__":
     b = input("请输入b:")
     c = quotient(a, b)
     print(c)
+    
+    user1()
 
