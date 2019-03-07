@@ -5,7 +5,11 @@ def quotient(a, b):
     result = a / b
 
     return result
+#创建一个无用的函数用来测试
+def branch_test():
+    print('branch test success')
 
 if __name__ == "__main__":
     a = quotient(2, 3)
     print(a)
+
