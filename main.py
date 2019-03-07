@@ -13,6 +13,11 @@ def branch_test():
 def user1():
     print("用户1添加了一个新的功能")
 
+#用户2添加了一个新的功能
+def user2():
+    print("用户2添加的功能")
+
+
 if __name__ == "__main__":
 
     #增加手动输入数字
@@ -20,6 +25,10 @@ if __name__ == "__main__":
     b = input("请输入b:")
     c = quotient(a, b)
     print(c)
+
     
     user1()
+
+    user2()
+
 
