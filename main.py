@@ -1,4 +1,4 @@
-def quotient(a, b):
+﻿def quotient(a, b):
     #判断b是否为除数
     if b == 0:
         return 'b can not a zero'
@@ -34,4 +34,4 @@ if __name__ == "__main__":
 
     user2()
     push_test()
-
+    print("不添加密匙推送测试")
